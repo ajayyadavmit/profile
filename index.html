@@ -8,11 +8,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
   <style>
     /* * {
       margin: 0;
       padding: 0;
+            background-color: rgb(192, 192, 192);
+
     } */
 
     body {
@@ -33,10 +36,15 @@
     nav {
       display: flex;
       justify-content: space-around;
-      align-items: center;
+      align-items: left;
       height: 80px;
       color: white;
       background-color: #445dbb;
+    }
+
+    header {
+      margin: 0;
+      padding: 0;
     }
 
     nav ul {
@@ -66,11 +74,18 @@
       font-size: 2rem;
     }
 
-    .rightSection img {
-      width: 80%;
+    .rightSection {
+      width: 40%;
       justify-content: center;
-      margin: 10;
+      margin: 1px;
     }
+
+    .rightSection img {
+      width: 100%;
+      justify-content: center;
+      margin: 1px;
+    }
+
 
     .subject {
       color: orange;
@@ -94,6 +109,11 @@
       margin-top: 10px;
       text-align: center;
       color: #2e2929;
+    }
+
+    #list1,
+    #list2 {
+      text-align: left;
     }
 
     .thirdSection {
@@ -120,11 +140,15 @@
       </div>
       <div class="right">
         <ul>
-          <li> <a href="#home"> Home </a></li>
+          <!-- <li> <a href="#home"> Home </a></li> -->
           <li> <a href="#about"> About </a></li>
-          <li> <a href="#experience"> Experiences </a></li>
-          <li> <a href="#project"> Projects </a></li>
-          <li> <a href="#contact"> Contact Us </a></li>
+          <!-- <li> <a href="#experience"> Experiences </a></li> -->
+          <li><a href="kali_mata.html">Sprituality</a></li>
+          <li> <a href="cs_curriculum.html"> Curriculum </a></li>
+          <li><a href="data.html">Knowledge</a></li>
+          <li> <a href="open_research.html"> Open Research </a></li>
+          <!-- <li> <a href="#contact"> Contact Us </a></li> -->
+
         </ul>
       </div>
     </nav>
@@ -141,14 +165,19 @@
           <span class="subject"> Computer Science </span> Subject at Secondary
           School Level Grades 9 to 12
         </div>
-        <button id="btn">Download CV</button>
-        <button>Click to Call</button>
+        <button id="btn"><a href="Ajay_CV.pdf">Download CV</a></button>
+        <!-- 
+        <p>
+          <i class="fas fa-phone phone-icon"></i>
+          <span class="phone-number">9843623895</span>
+        </p> -->
+
+        <a href="mailto:ajayyadav.mit@gmail.com">Email Us</a>
       </div>
       <div class="rightSection">
-        <img src="img1.png" alt="" />
+        <img src="pics/cs.png" alt="" />
       </div>
     </section>
-
 
     <section class="secondSection" id="about">
 
@@ -160,7 +189,7 @@
         project. </p>
       <br>
       <h1>Paper Published</h1>
-      <ul>
+      <ul id="list1">
         <li>Book Chapter "AI and Healthcare" in a Book (ISBN-13: 978-0367439439) - "AI and Global Society" published by
           Taylor and Francis in [2021] <br> <a href="AI.pdf">Download Paper</a> </li>
         <li>DATA SCIENCE IS THE SKILLS REQUIRED FOR THE FUTURE MANAGERS IN INDUSTRY 5.0, Published in "AAMO Leading the
@@ -176,21 +205,30 @@
     <section class="thirdSection" id="experience">
       <div>
         <h1>Experience Details Here</h1>
-        <p>Professional Experience:
-          1. Project Manager, North Star Developer (Sanepa, Lalitpur – South Korea Head Office) ; Responsible for:
-          • Education Learning Management System development and feature enhancement. UBL Cloud system is used by
-          several universities in Indonesia, S. Korea, Mongolia by Professors, teachers, student and administrator.
-          • Artificial Intelligence integration for the Student Predictive learning data.
-          2. Senior Officer, Nepal Electronic Payment System (NEPS); Responsible for:
-          • Managing Card based Switch project for the NePS member banks. There are currently 14 member banks associated
-          with this company. I am managing project for all these banks with ATM functionality, payment system in Mobile
-          app networks.
-          • Developing and assigning timelines, milestones and go-live date for all projects with priorities and
-          schedules.
-          • Planning human and other resources for the ongoing and future projects and take support from operation team
-          based on the requirement.
-          • Coordinating among vendors, operation team, IT team and business development team to align the projects
-          according to the requirements.
+        <h2>Professional Experience:</h2>
+        <p>
+        <ol>
+          <h2> Project Manager, North Star Developer (Sanepa, Lalitpur – South Korea Head Office) ; Responsible for:
+          </h2>
+          <li>
+            <p>.Education Learning Management System development and feature enhancement. UBL Cloud system is used by
+              several universities in Indonesia, S. Korea, Mongolia by Professors, teachers, student and administrator.
+              • Artificial Intelligence integration for the Student Predictive learning data.</p>
+          </li>
+          <li></li>
+          <li></li>
+        </ol>
+
+        2. Senior Officer, Nepal Electronic Payment System (NEPS); Responsible for:
+        • Managing Card based Switch project for the NePS member banks. There are currently 14 member banks associated
+        with this company. I am managing project for all these banks with ATM functionality, payment system in Mobile
+        app networks.
+        • Developing and assigning timelines, milestones and go-live date for all projects with priorities and
+        schedules.
+        • Planning human and other resources for the ongoing and future projects and take support from operation team
+        based on the requirement.
+        • Coordinating among vendors, operation team, IT team and business development team to align the projects
+        according to the requirements.
         </p>
       </div>
     </section>
