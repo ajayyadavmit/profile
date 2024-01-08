@@ -29,8 +29,6 @@
     p {
       line-height: 2.3;
       text-align: center;
-      /* Justify text */
-
     }
 
     nav {
@@ -127,6 +125,51 @@
       border: 15px;
       height: 44px;
     }
+
+    /* Media Query for Mobile Devices */
+    @media only screen and (max-width: 960px) {
+      nav {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: left;
+        height: 180px;
+        color: white;
+        background-color: #445dbb;
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+
+      .right ul {
+        flex-direction: column;
+        text-align: left;
+      }
+
+      .firstSection {
+        display: block;
+      }
+
+      .leftSection {
+        width: 100vw;
+        justify-content: center;
+
+      }
+
+      .rightSection {
+        padding: 1px;
+        margin: 1px;
+        width: 100vw;
+        justify-content: space-around;
+        background-color: white;
+      }
+
+      .rightSection img {
+        justify-content: center;
+        width: 80vw;
+      }
+    }
+    
   </style>
 
 
@@ -140,14 +183,11 @@
       </div>
       <div class="right">
         <ul>
-          <!-- <li> <a href="#home"> Home </a></li> -->
           <li> <a href="#about"> About </a></li>
-          <!-- <li> <a href="#experience"> Experiences </a></li> -->
           <li><a href="kali_mata.html">Sprituality</a></li>
           <li> <a href="cs_curriculum.html"> Curriculum </a></li>
           <li><a href="data.html">Knowledge</a></li>
           <li> <a href="open_research.html"> Open Research </a></li>
-          <!-- <li> <a href="#contact"> Contact Us </a></li> -->
 
         </ul>
       </div>
