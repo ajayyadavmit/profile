@@ -31,6 +31,11 @@
       text-align: center;
     }
 
+    #about1 {
+      line-height: 2;
+      font-size: medium;
+    }
+
     nav {
       display: flex;
       justify-content: space-around;
@@ -67,9 +72,9 @@
     }
 
     .leftSection {
-      margin: 35px;
+      margin: 25px;
       width: 50%;
-      font-size: 2rem;
+      font-size: 1.8rem;
     }
 
     .rightSection {
@@ -84,14 +89,14 @@
       margin: 1px;
     }
 
-
-    .subject {
-      color: orange;
-    }
-
     nav a {
       text-decoration: none;
       color: white;
+    }
+
+    .txt1 {
+      color: red;
+      font-size: 1.5rem;
     }
 
     nav ul li a:hover {
@@ -120,7 +125,7 @@
     }
 
     #btn {
-      background-color: brown;
+      background-color: rgb(42, 163, 165);
       margin: 5px;
       border: 15px;
       height: 44px;
@@ -138,7 +143,7 @@
       }
 
       .left {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
       }
 
       .right ul {
@@ -175,6 +180,7 @@
   </style>
 
 
+
 </head>
 
 <body>
@@ -199,22 +205,21 @@
   <main>
     <section class="firstSection" id="home">
       <div class="leftSection">
-        <br> Hello, I am Ajay Yadav
+        Curriculum Designer for
         <div>
-          I am a Curriculum Designer for
-          <span id="element"></span>
-
-          <span class="subject"> Computer Science </span> Subject at Secondary
-          School Level Grades 9 to 12
+          <span id="element">
         </div>
-        <button id="btn"><a href="Ajay_CV.pdf">Download CV</a></button>
-        <!-- 
-        <p>
-          <i class="fas fa-phone phone-icon"></i>
-          <span class="phone-number">9843623895</span>
-        </p> -->
 
-        <a href="mailto:ajayyadav.mit@gmail.com">Email Us</a>
+        &nbsp; &nbsp; Free Training provided to Scholar, Government Officials, Curriculum Designers for Computer Science
+        Subject.
+        <br>
+        <a href="mailto:ajayyadav.mit@gmail.com">Email Us</a>&nbsp;&nbsp;&nbsp;
+        <i class="fa fa-phone" style="font-size:18px;color:red"> +977-9843623895</i>
+
+        <br>
+        <button id="btn"><a href="Ajay_CV.pdf">Download CV</a></button>
+
+
       </div>
       <div class="rightSection">
         <img src="pics/cs.png" alt="" />
@@ -224,12 +229,20 @@
     <section class="secondSection" id="about">
 
       <h1>About Myself </h1>
-      <p>I hold MBA and Bachelor (in Computer Engineering). I have 14 + years of experience in the Software Industry as
-        Project Manager for the mobile, web application. I have worked in the Education, Finance Payment system, Media
-        and insurance industry. I have been involving in project costing (fixed/variable), project planning and
-        execution, risk assessment and mitigation plan, project proposal development, and vendor assessment of the
-        project. </p>
-      <br>
+      <div id="about1">
+        <li>
+          Ajay Yadav is a Project Manager at Edtech Company. As a role of PM, he has lead and release several IT project
+          for Insurance, Banking, Education, Tourism industry domain. He has published several articles related to AI
+          technologies.
+          He has done the research in the Curriculum Analysis and Development for the Computer Science subject at
+          Secondary School in Nepal.
+          <br>
+          As a Spritual person, he does <span class="txt1"> Yoga, Dhyan Mantra for Consciousness </span>. He teaches
+          consciousness practice as a
+          message from <span class="txt1"> Goddess Ma Kali </span> ; Bhakta that helps person to know the <span
+            class="txt1"> Truth within oneself </span>.
+        </li>
+      </div>
       <h1>Paper Published</h1>
       <ul id="list1">
         <li>Book Chapter "AI and Healthcare" in a Book (ISBN-13: 978-0367439439) - "AI and Global Society" published by
@@ -239,39 +252,61 @@
         </li>
         <li>MPhil Thesis on Topic : Computer Science Curriculum for Grade IX and Xth in Nepal </li>
       </ul>
-
-
-
     </section>
 
     <section class="thirdSection" id="experience">
       <div>
-        <h1>Experience Details Here</h1>
-        <h2>Professional Experience:</h2>
+        <h2>Professional Experience</h2>
         <p>
-        <ol>
-          <h2> Project Manager, North Star Developer (Sanepa, Lalitpur – South Korea Head Office) ; Responsible for:
-          </h2>
+        <ul>
+          <h3> 1. Project Manager, North Star Developer (Sanepa, Lalitpur – South Korea Head Office)
+          </h3>
           <li>
-            <p>.Education Learning Management System development and feature enhancement. UBL Cloud system is used by
-              several universities in Indonesia, S. Korea, Mongolia by Professors, teachers, student and administrator.
-              • Artificial Intelligence integration for the Student Predictive learning data.</p>
-          </li>
-          <li></li>
-          <li></li>
-        </ol>
+            Education Learning Management System development and feature enhancement. UBL Cloud system is used by
+            several universities in Indonesia, S. Korea, Mongolia by Professors, teachers, student and administrator.
 
-        2. Senior Officer, Nepal Electronic Payment System (NEPS); Responsible for:
-        • Managing Card based Switch project for the NePS member banks. There are currently 14 member banks associated
-        with this company. I am managing project for all these banks with ATM functionality, payment system in Mobile
-        app networks.
-        • Developing and assigning timelines, milestones and go-live date for all projects with priorities and
-        schedules.
-        • Planning human and other resources for the ongoing and future projects and take support from operation team
-        based on the requirement.
-        • Coordinating among vendors, operation team, IT team and business development team to align the projects
-        according to the requirements.
-        </p>
+          </li>
+          <li> Artificial Intelligence integration for the Student Predictive learning data.</li>
+          <h3> 2. Project Manager at Nepal Electronic Payment System (NEPS) </h3>
+          <li> Managing Card based Switch project for the NePS member banks. There are currently 14 member
+            banks associated with this company. I am managing project for all these banks with ATM
+            functionality, payment system in Mobile app networks.</li>
+          <li>Developing and assigning timelines, milestones and go-live date for all projects with priorities and
+            schedules.
+          </li>
+          <li>Planning human and other resources for the ongoing and future projects and take support from
+            operation team based on the requirement.</li>
+          <li> Coordinating among vendors, operation team, IT team and business development team to align the
+            projects according to the requirements.</li>
+
+          <h3>3. Project Manager, Club Mahindra Mobile App, Delhi</h3>
+          <li>Product development for Club Mahindra iOS, android apps. Club Mahindra (www.Clubmahindra.com) has
+            several resorts in the country & aboard. App Functionality was to target Membership users for the Resorts
+            Booking, Modification and Cancellation functionality.</li>
+          <h3>Mobile Apps Released </h3>
+          <li>GST Rate Finder Telugu, Club Mahindra, My Lower Mainland, NY Daily News Mobile,
+            GoDetroit. goCarolinas, icFlorida, NYC Way, GST Rate Finder (Telugu)</li>
+          <h3>4. Project Manager, MyCityWay Mobile Apps, Delhi, India</h3>
+          <li>Developing vision to the Product as per the Market Standards by studying several Social Networking
+            Trends & Mobile Fields. <br>
+            Worked with Designer for the App UI design. Apps use both the Offline & Online Features with the
+            performance optimization in Location Services. <br> User behavior data analysis through Google Analytics.
+          </li>
+
+          <h3>5. Senior Software Engineer, Accenture State Farm Insurance, IL, USA</h3>
+          <li>Developed an OCWA processing system (a system used by Underwriters in Insurance to manage
+            and distribute their works) iteratively using Agile techniques in multiple development projects
+            and deployed into production. <br>
+            • Creating Test Strategy, Test Plan, Test Script, Test Data, Test Execution, Test Log, Defect
+            Management. <br>
+            • Identifying Risks and Dependencies of OCWA with other projects in SF Insurance <br>
+            • Reporting Overall Testing Status (Milestone, Test Case Status, Defect Analysis) to the Client. <br>
+            • Coordinating among Business Analyst, Interface Design Specialist and Development Team. <br>
+            • Involved in Integration Testing, System Testing, Acceptance Testing, Usability Testing,
+            Implementation Testing, Pilot Testing for the OCWA system.</li>
+        </ul>
+
+
       </div>
     </section>
 
@@ -281,8 +316,8 @@
 
 <script>
   var typed = new Typed('#element', {
-    strings: ['<i>First</i> sentence.', '&amp; a second sentence.', 'Curriculum Designer', "Project Manager"],
-    typeSpeed: 50,
+    strings: ['<i>Computer Science Subject at Secondary School Level Grades 9 to 12</i>'],
+    typeSpeed: 30,
   });
 </script>
 
